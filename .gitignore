@@ -1,0 +1,6 @@
+key_config.ini
+data/business_docs/*
+!data/business_docs/.git_keep
+data/logs/*
+!data/logs/.git_keep
+old/*
