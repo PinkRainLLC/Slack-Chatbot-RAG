@@ -21,6 +21,20 @@ source my_venv_name/source/activates
 pip install -r requirements.txt
 ```
 
+#### If the requirements file doesn't work...
+I had an issue with it, so just in case I'll put this here.
+Should be everything you need.
+```
+pip install slack_bolt
+pip install langchain langchain-community langchain-core
+pip install langchain-huggingface langchain-openai 
+pip install langchain-pinecone langchain-text-splitters
+pip install openai
+pip install pinecone
+pip install sentence-transformers
+pip install pypdf
+```
+
 #### Make the key_config.ini
 Make a new file called **key_config.ini** in the main folder (where *config.ini* is at).
 
